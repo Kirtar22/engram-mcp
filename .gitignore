@@ -1,0 +1,17 @@
+# Python Environments & Caches
+venv/
+__pycache__/
+*.pyc
+.claude/
+
+# Output Directories (Ignore files inside, keep the folders)
+exports/*
+!exports/.gitkeep
+logs/*
+!logs/.gitkeep
+analysis/*
+!analysis/.gitkeep
+
+*.raw
+*.img
+*.md5
