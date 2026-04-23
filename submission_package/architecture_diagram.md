@@ -1,6 +1,6 @@
 # 🗺️ Engram MCP: AI DFIR Architecture Diagram
 
-This diagram visualizes the deterministic data pipeline of Engram MCP. It illustrates how the architecture decouples the LLM Orchestrator from raw tool execution, enforcing the 6-Phase OODA Loop methodology via Model Context Protocol (MCP) JSON telemetry.
+This diagram visualizes the deterministic data pipeline of Engram MCP. It illustrates how the architecture decouples the LLM Orchestrator from raw tool execution, enforcing the 5-Phase OODA Loop methodology via Model Context Protocol (MCP) JSON telemetry.
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#003366', 'edgeLabelBackground':'#ffffff', 'tertiaryColor': '#fff'}}}%%
