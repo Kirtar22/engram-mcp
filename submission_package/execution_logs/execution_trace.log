@@ -1,0 +1,287 @@
+2026-04-15T09:33:12+0000 | INFO | TOOL_CALL | tool_phase1_surface_triage | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw
+2026-04-15T09:33:56+0000 | INFO | TOOL_SUCCESS | tool_phase1_surface_triage | RESULT: {"Summary": {"Total_Visible_Processes": 54, "DKOM_Hidden_Found": 0, "ADD_Spoofs_Found": 0, "Zombie_Connections": 0}, "Anomalies": {"DKOM_Processes": [], "ADD_Spoofed_Decoys": [], "Zombie_Processes": []}}
+2026-04-15T09:39:02+0000 | INFO | TOOL_CALL | tool_phase1_surface_triage | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw
+2026-04-15T09:39:32+0000 | INFO | TOOL_SUCCESS | tool_phase1_surface_triage | RESULT: {"Summary": {"Total_Visible_Processes": 54, "DKOM_Hidden_Found": 0, "ADD_Spoofs_Found": 0, "Zombie_Connections": 0}, "Anomalies": {"DKOM_Processes": [], "ADD_Spoofed_Decoys": [], "Zombie_Processes": []}}
+2026-04-15T09:42:36+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-15T09:42:36+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-15T09:42:36+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-15T09:42:36+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-15T09:42:36+0000 | INFO | Processing request of type ListResourceTemplatesRequest
+2026-04-15T09:44:54+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T09:44:54+0000 | INFO | TOOL_CALL | tool_phase1_surface_triage | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw
+2026-04-15T09:45:25+0000 | INFO | TOOL_SUCCESS | tool_phase1_surface_triage | RESULT: {"Summary": {"Total_Visible_Processes": 54, "DKOM_Hidden_Found": 0, "ADD_Spoofs_Found": 0, "Zombie_Connections": 0}, "Anomalies": {"DKOM_Processes": [], "ADD_Spoofed_Decoys": [], "Zombie_Processes": []}}
+2026-04-15T10:42:43+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-15T10:42:43+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-15T10:42:43+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-15T10:42:43+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-15T10:42:43+0000 | INFO | Processing request of type ListResourceTemplatesRequest
+2026-04-15T10:50:32+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T10:50:51+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T10:50:51+0000 | INFO | TOOL_CALL | tool_phase1_surface_triage | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw
+2026-04-15T10:51:21+0000 | INFO | TOOL_SUCCESS | tool_phase1_surface_triage | RESULT: {"Summary": {"Total_Visible_Processes": 54, "DKOM_Hidden_Found": 0, "ADD_Spoofs_Found": 0, "Zombie_Connections": 0}, "Anomalies": {"DKOM_Processes": [], "ADD_Spoofed_Decoys": [], "Zombie_Processes": []}}
+2026-04-15T10:53:17+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T10:53:17+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw | PIDs: [1044, 2632, 780, 2716, 1388, 2056, 2724, 1580, 2924]
+2026-04-15T10:53:19+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [1044, 2632, 780, 2716, 1388, 2056, 2724, 1580, 2924]
+2026-04-15T11:17:09+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-15T11:17:09+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-15T11:17:09+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-15T11:17:09+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-15T11:17:09+0000 | INFO | Processing request of type ListResourceTemplatesRequest
+2026-04-15T11:17:55+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T11:17:55+0000 | INFO | TOOL_CALL | tool_phase1_surface_triage | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw
+2026-04-15T11:18:25+0000 | INFO | TOOL_SUCCESS | tool_phase1_surface_triage | RESULT: {"Summary": {"Total_Visible_Processes": 54, "DKOM_Hidden_Found": 0, "ADD_Spoofs_Found": 0, "Zombie_Connections": 0}, "Anomalies": {"DKOM_Processes": [], "ADD_Spoofed_Decoys": [], "Zombie_Processes": []}}
+2026-04-15T11:21:42+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T11:21:42+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw | PIDs: [1044, 1580, 2724, 2744, 2056, 1388, 2924, 2716, 780, 340, 2632]
+2026-04-15T11:21:55+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [1044, 1580, 2724, 2744, 2056, 1388, 2924, 2716, 780, 340, 2632]
+2026-04-15T12:03:29+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-15T12:03:29+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-15T12:03:29+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-15T12:03:29+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-15T12:03:29+0000 | INFO | Processing request of type ListResourceTemplatesRequest
+2026-04-15T12:04:17+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T12:04:17+0000 | INFO | TOOL_CALL | tool_phase1_surface_triage | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw
+2026-04-15T12:04:47+0000 | INFO | TOOL_SUCCESS | tool_phase1_surface_triage | RESULT: {"Summary": {"Total_Visible_Processes": 54, "DKOM_Hidden_Found": 0, "ADD_Spoofs_Found": 0, "Zombie_Connections": 0}, "Anomalies": {"DKOM_Processes": [], "ADD_Spoofed_Decoys": [], "Zombie_Processes": []}}
+2026-04-15T12:07:56+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T12:07:56+0000 | INFO | TOOL_CALL | tool_phase2_deep_userspace | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw
+2026-04-15T12:08:42+0000 | INFO | TOOL_SUCCESS | tool_phase2_deep_userspace | Hidden_Modules: 149 | Malfind_PIDs: 10
+2026-04-15T12:28:30+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T12:28:30+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw | PIDs: [1044, 1580, 340]
+2026-04-15T12:28:39+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [1044, 1580, 340]
+2026-04-15T12:30:08+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T12:30:08+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw | PIDs: [1388, 2724, 2744, 2056, 2924, 1128]
+2026-04-15T12:30:15+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [1388, 2724, 2744, 2056, 2924, 1128]
+2026-04-15T12:31:12+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T12:31:12+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw | PIDs: [1396, 1928, 820, 668]
+2026-04-15T12:31:22+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [1396, 1928, 820, 668]
+2026-04-15T14:29:26+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-15T14:29:26+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-15T14:29:26+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-15T14:29:26+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-15T14:29:26+0000 | INFO | Processing request of type ListResourceTemplatesRequest
+2026-04-15T14:30:11+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T14:30:11+0000 | INFO | TOOL_CALL | tool_phase1_surface_triage | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw
+2026-04-15T14:30:42+0000 | INFO | TOOL_SUCCESS | tool_phase1_surface_triage | RESULT: {"Summary": {"Total_Visible_Processes": 54, "DKOM_Hidden_Found": 0, "ADD_Spoofs_Found": 0, "Zombie_Connections": 0}, "Anomalies": {"DKOM_Processes": [], "ADD_Spoofed_Decoys": [], "Zombie_Processes": []}}
+2026-04-15T14:32:00+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T14:32:00+0000 | INFO | TOOL_CALL | tool_phase2_deep_userspace | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw
+2026-04-15T14:32:47+0000 | INFO | TOOL_SUCCESS | tool_phase2_deep_userspace | Hidden_Modules: 149 | Malfind_PIDs: 10
+2026-04-15T14:33:32+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T14:33:32+0000 | INFO | TOOL_CALL | tool_phase3_kernel_abyss | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw
+2026-04-15T14:33:49+0000 | INFO | TOOL_SUCCESS | tool_phase3_kernel_abyss | Hidden_Drivers: 4 | SSDT_Hooks: 0
+2026-04-15T14:35:21+0000 | INFO | Processing request of type CallToolRequest
+2026-04-15T14:35:21+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/MemoryDump_Lab5.raw | PIDs: [1580, 1044, 1388, 2056, 2724, 2744, 780, 2716]
+2026-04-15T14:35:32+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [1580, 1044, 1388, 2056, 2724, 2744, 780, 2716]
+2026-04-17T10:11:52+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-17T10:13:11+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-17T10:13:11+0000 | ERROR | Received exception from stream: 1 validation error for JSONRPCMessage
+  Invalid JSON: EOF while parsing a value at line 2 column 0 [type=json_invalid, input_value='\n', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+2026-04-17T10:13:12+0000 | ERROR | Received exception from stream: 1 validation error for JSONRPCMessage
+  Invalid JSON: EOF while parsing a value at line 2 column 0 [type=json_invalid, input_value='\n', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+2026-04-17T10:13:17+0000 | ERROR | Received exception from stream: 1 validation error for JSONRPCMessage
+  Invalid JSON: EOF while parsing a value at line 2 column 0 [type=json_invalid, input_value='\n', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+2026-04-17T10:13:47+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-17T10:13:47+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-17T10:13:47+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-17T10:13:47+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-17T10:13:47+0000 | INFO | Processing request of type ListResourceTemplatesRequest
+2026-04-17T10:18:57+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-17T10:18:57+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-17T10:18:57+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-17T10:18:57+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-17T10:18:57+0000 | INFO | Processing request of type ListResourceTemplatesRequest
+2026-04-17T10:20:27+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T10:20:27+0000 | INFO | TOOL_CALL | tool_phase1_surface_triage | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw
+2026-04-17T10:21:07+0000 | ERROR | TOOL_EXCEPTION | tool_phase1_surface_triage | EXCEPTION: Volatility failed on windows.netscan. Error: Volatility 3 Framework 2.27.0
+
+Progress:    0.00		Scanning FileLayer using PageMapScanner
+
+Progress:   23.33		Scanning FileLayer using PageMapScanner
+
+Progress:    0.00		Scanning FileLayer using PageMapScanner
+
+Progress:  100.00		Stacking attempts finished             
+
+Progress:    0.00		Scanning memory_layer using BytesScanner
+
+Progress:    0.00		Scanning layer_name using PdbSignatureScanner
+
+Progress:    0.00		Scanning layer_name using PdbSignatureScanner
+
+Progress:  100.00		PDB scanning finished                        
+Traceback (most recent call last):
+  File "/home/kirtar/volatility3/vol.py", line 11, in <module>
+    volatility3.cli.main()
+  File "/home/kirtar/volatility3/volatility3/cli/__init__.py", line 934, in main
+    CommandLine().run()
+  File "/home/kirtar/volatility3/volatility3/cli/__init__.py", line 522, in run
+    renderer.render(grid)
+  File "/home/kirtar/volatility3/volatility3/cli/text_renderer.py", line 610, in render
+    grid.populate(visitor, final_output)
+  File "/home/kirtar/volatility3/volatility3/framework/renderers/__init__.py", line 318, in populate
+    for level, item in self._generator:
+  File "/home/kirtar/volatility3/volatility3/framework/plugins/windows/netscan.py", line 390, in _generator
+    netscan_symbol_table = self.create_netscan_symbol_table(
+  File "/home/kirtar/volatility3/volatility3/framework/plugins/windows/netscan.py", line 347, in create_netscan_symbol_table
+    symbol_filename, class_types = cls.determine_tcpip_version(
+  File "/home/kirtar/volatility3/volatility3/framework/plugins/windows/netscan.py", line 318, in determine_tcpip_version
+    raise NotImplementedError(
+NotImplementedError: This version of Windows is not supported: 5.1 15.2600!
+
+2026-04-17T10:34:59+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-17T10:34:59+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-17T10:34:59+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-17T10:34:59+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-17T10:34:59+0000 | INFO | Processing request of type ListResourceTemplatesRequest
+2026-04-17T10:36:03+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T10:36:03+0000 | INFO | TOOL_CALL | tool_phase1_surface_triage | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw
+2026-04-17T10:36:31+0000 | INFO | TOOL_SUCCESS | tool_phase1_surface_triage | RESULT: {"Summary": {"Total_Visible_Processes": 25, "DKOM_Hidden_Found": 0, "ADD_Spoofs_Found": 0, "Zombie_Connections": 0}, "Anomalies": {"DKOM_Processes": [], "ADD_Spoofed_Decoys": [], "Zombie_Processes": []}}
+2026-04-17T10:39:18+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T10:39:18+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw | PIDs: [964, 1960, 528, 1444, 1432, 1880]
+2026-04-17T10:39:37+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [964, 1960, 528, 1444, 1432, 1880]
+2026-04-17T10:39:53+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T10:39:53+0000 | INFO | TOOL_CALL | tool_phase2_deep_userspace | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw
+2026-04-17T10:40:14+0000 | INFO | TOOL_SUCCESS | tool_phase2_deep_userspace | Hidden_Modules: 11 | Malfind_PIDs: 4
+2026-04-17T10:42:07+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T10:42:07+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw | PIDs: [616, 592, 880, 636]
+2026-04-17T10:42:29+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [616, 592, 880, 636]
+2026-04-17T10:42:39+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T10:42:39+0000 | INFO | TOOL_CALL | tool_phase3_kernel_abyss | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw
+2026-04-17T10:43:18+0000 | INFO | TOOL_SUCCESS | tool_phase3_kernel_abyss | Hidden_Drivers: 0 | SSDT_Hooks: 0
+2026-04-17T10:45:33+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T10:45:33+0000 | INFO | TOOL_CALL | tool_phase4_advanced_evasion | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw
+2026-04-17T10:45:46+0000 | INFO | TOOL_SUCCESS | tool_phase4_advanced_evasion | Suspicious_Threads: 0 | Execution_Artifacts: 0
+2026-04-17T11:29:35+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-17T11:29:35+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-17T11:29:35+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-17T11:29:35+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-17T11:29:35+0000 | INFO | Processing request of type ListResourceTemplatesRequest
+2026-04-17T11:30:23+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T11:30:23+0000 | INFO | TOOL_CALL | tool_phase1_surface_triage | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw
+2026-04-17T11:30:51+0000 | INFO | TOOL_SUCCESS | tool_phase1_surface_triage | RESULT: {"Summary": {"Total_Visible_Processes": 25, "DKOM_Hidden_Found": 0, "ADD_Spoofs_Found": 0, "Zombie_Connections": 0}, "Anomalies": {"DKOM_Processes": [], "ADD_Spoofed_Decoys": [], "Zombie_Processes": []}}
+2026-04-17T11:31:29+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T11:31:29+0000 | INFO | TOOL_CALL | tool_phase2_deep_userspace | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw
+2026-04-17T11:31:50+0000 | INFO | TOOL_SUCCESS | tool_phase2_deep_userspace | Hidden_Modules: 11 | Malfind_PIDs: 4
+2026-04-17T11:32:48+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T11:32:48+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw | PIDs: [616, 964, 1960, 880]
+2026-04-17T11:33:09+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [616, 964, 1960, 880]
+2026-04-17T11:33:57+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T11:33:57+0000 | INFO | TOOL_CALL | tool_phase3_kernel_abyss | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw
+2026-04-17T11:34:36+0000 | INFO | TOOL_SUCCESS | tool_phase3_kernel_abyss | Hidden_Drivers: 0 | SSDT_Hooks: 0
+2026-04-17T11:35:43+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T11:35:43+0000 | INFO | TOOL_CALL | tool_phase4_advanced_evasion | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw
+2026-04-17T11:35:56+0000 | INFO | TOOL_SUCCESS | tool_phase4_advanced_evasion | Suspicious_Threads: 0 | Execution_Artifacts: 0
+2026-04-17T11:36:41+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T11:36:41+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw | PIDs: [528, 1444, 1432, 636, 592]
+2026-04-17T11:37:01+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [528, 1444, 1432, 636, 592]
+2026-04-17T12:07:54+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-17T12:07:54+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-17T12:07:54+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-17T12:07:54+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-17T12:07:54+0000 | INFO | Processing request of type ListResourceTemplatesRequest
+2026-04-17T12:09:21+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T12:09:21+0000 | INFO | TOOL_CALL | tool_phase1_surface_triage | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw
+2026-04-17T12:09:49+0000 | INFO | TOOL_SUCCESS | tool_phase1_surface_triage | RESULT: {"Summary": {"Total_Visible_Processes": 25, "DKOM_Hidden_Found": 0, "ADD_Spoofs_Found": 0, "Zombie_Connections": 0}, "Anomalies": {"DKOM_Processes": [], "ADD_Spoofed_Decoys": [], "Zombie_Processes": []}}
+2026-04-17T12:11:39+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T12:11:39+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw | PIDs: [964, 1960]
+2026-04-17T12:11:58+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [964, 1960]
+2026-04-17T12:12:17+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T12:12:17+0000 | INFO | TOOL_CALL | tool_phase2_deep_userspace | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw
+2026-04-17T12:12:38+0000 | INFO | TOOL_SUCCESS | tool_phase2_deep_userspace | Hidden_Modules: 11 | Malfind_PIDs: 4
+2026-04-17T12:13:26+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T12:13:26+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw | PIDs: [880, 616]
+2026-04-17T12:13:47+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [880, 616]
+2026-04-17T12:14:41+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T12:14:41+0000 | INFO | TOOL_CALL | tool_phase3_kernel_abyss | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw
+2026-04-17T12:15:20+0000 | INFO | TOOL_SUCCESS | tool_phase3_kernel_abyss | Hidden_Drivers: 0 | SSDT_Hooks: 0
+2026-04-17T12:15:49+0000 | INFO | Processing request of type CallToolRequest
+2026-04-17T12:15:49+0000 | INFO | TOOL_CALL | tool_phase4_advanced_evasion | TARGET: /cases/HACKATHON-MEM-001/unknown_dmp.raw
+2026-04-17T12:16:03+0000 | INFO | TOOL_SUCCESS | tool_phase4_advanced_evasion | Suspicious_Threads: 0 | Execution_Artifacts: 0
+2026-04-17T12:17:47+0000 | INFO | Processing request of type CallToolRequest
+2026-04-18T06:51:29+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-18T06:51:29+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-18T06:51:29+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-18T06:51:29+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-18T06:51:29+0000 | INFO | Processing request of type ListResourceTemplatesRequest
+2026-04-18T06:54:41+0000 | INFO | Processing request of type CallToolRequest
+2026-04-18T06:54:41+0000 | INFO | TOOL_CALL | tool_phase1_surface_triage | TARGET: /cases/HACKATHON-MEM-001/target_alpha.img
+2026-04-18T06:56:50+0000 | INFO | TOOL_SUCCESS | tool_phase1_surface_triage | RESULT: {"Summary": {"Total_Visible_Processes": 0, "DKOM_Hidden_Found": 131, "ADD_Spoofs_Found": 64, "Zombie_Connections": 0}, "Anomalies": {"DKOM_Processes": [{"PID": 4, "Name": "System", "Reason": "DKOM"}, {"PID": 1544, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 4540, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 14392, "Name": "SearchProtocol", "Reason": "DKOM"}, {"PID": 9660, "Name": "OfficeClickToR", "Reason": "DKOM"}, {"PID": 1036, "Name": "RuntimeBroker.", "Reason": "DKOM"}, {"PID": 2772, "Name": "ctfmon.exe", "Reason": "DKOM"}, {"PID": 436, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 4408, "Name": "taskhostw.exe", "Reason": "DKOM"}, {"PID": 8796, "Name": "RuntimeBroker.", "Reason": "DKOM"}, {"PID": 11364, "Name": "vmtoolsd.exe", "Reason": "DKOM"}, {"PID": 6404, "Name": "SettingSyncHos", "Reason": "DKOM"}, {"PID": 2356, "Name": "firefox.exe", "Reason": "DKOM"}, {"PID": 15112, "Name": "rdpclip.exe", "Reason": "DKOM"}, {"PID": 512, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 9480, "Name": "RuntimeBroker.", "Reason": "DKOM"}, {"PID": 8308, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 5868, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 900, "Name": "SearchProtocol", "Reason": "DKOM"}, {"PID": 1848, "Name": "csrss.exe", "Reason": "DKOM"}, {"PID": 7488, "Name": "conhost.exe", "Reason": "DKOM"}, {"PID": 7116, "Name": "RuntimeBroker.", "Reason": "DKOM"}, {"PID": 9048, "Name": "Autorunsc.exe", "Reason": "DKOM"}, {"PID": 8772, "Name": "SearchProtocol", "Reason": "DKOM"}, {"PID": 5700, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 536, "Name": "smss.exe", "Reason": "DKOM"}, {"PID": 548, "Name": "csrss.exe", "Reason": "DKOM"}, {"PID": 712, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 384, "Name": "smss.exe", "Reason": "DKOM"}, {"PID": 1684, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 7840, "Name": "dwm.exe", "Reason": "DKOM"}, {"PID": 3916, "Name": "LogonUI.exe", "Reason": "DKOM"}, {"PID": 3068, "Name": "sc.exe", "Reason": "DKOM"}, {"PID": 5344, "Name": "smss.exe", "Reason": "DKOM"}, {"PID": 4888, "Name": "sppsvc.exe", "Reason": "DKOM"}, {"PID": 15604, "Name": "taskhostw.exe", "Reason": "DKOM"}, {"PID": 5764, "Name": "plasrv.exe", "Reason": "DKOM"}, {"PID": 5508, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 9220, "Name": "LogonUI.exe", "Reason": "DKOM"}, {"PID": 5920, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 2388, "Name": "sihost.exe", "Reason": "DKOM"}, {"PID": 9348, "Name": "SearchIndexer.", "Reason": "DKOM"}, {"PID": 8152, "Name": "AdobeARMHelper", "Reason": "DKOM"}, {"PID": 808, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 16788, "Name": "csrss.exe", "Reason": "DKOM"}, {"PID": 5064, "Name": "userinit.exe", "Reason": "DKOM"}, {"PID": 9052, "Name": "ctfmon.exe", "Reason": "DKOM"}, {"PID": 5024, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 12528, "Name": "subject_srv.ex", "Reason": "DKOM"}, {"PID": 10184, "Name": "AppVShNotify.e", "Reason": "DKOM"}, {"PID": 3340, "Name": "Microsoft.Note", "Reason": "DKOM"}, {"PID": 640, "Name": "wininit.exe", "Reason": "DKOM"}, {"PID": 10212, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 732, "Name": "winlogon.exe", "Reason": "DKOM"}, {"PID": 740, "Name": "services.exe", "Reason": "DKOM"}, {"PID": 776, "Name": "lsass.exe", "Reason": "DKOM"}, {"PID": 888, "Name": "fontdrvhost.ex", "Reason": "DKOM"}, {"PID": 10096, "Name": "backgroundTask", "Reason": "DKOM"}, {"PID": 876, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 14800, "Name": "dmclient.exe", "Reason": "DKOM"}, {"PID": 12852, "Name": "shstat.exe", "Reason": "DKOM"}, {"PID": 6336, "Name": "AdobeARMHelper", "Reason": "DKOM"}, {"PID": 8812, "Name": "RuntimeBroker.", "Reason": "DKOM"}, {"PID": 4448, "Name": "conhost.exe", "Reason": "DKOM"}, {"PID": 11072, "Name": "gpupdate.exe", "Reason": "DKOM"}, {"PID": 996, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 2008, "Name": "vmacthlp.exe", "Reason": "DKOM"}, {"PID": 2108, "Name": "spoolsv.exe", "Reason": "DKOM"}, {"PID": 1116, "Name": "MemCompression", "Reason": "DKOM"}, {"PID": 1616, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 1056, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 1072, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 2224, "Name": "armsvc.exe", "Reason": "DKOM"}, {"PID": 2232, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 556, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 14680, "Name": "dstokenclean.e", "Reason": "DKOM"}, {"PID": 9428, "Name": "taskhostw.exe", "Reason": "DKOM"}, {"PID": 7856, "Name": "fontdrvhost.ex", "Reason": "DKOM"}, {"PID": 1156, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 12756, "Name": "conhost.exe", "Reason": "DKOM"}, {"PID": 4612, "Name": "explorer.exe", "Reason": "DKOM"}, {"PID": 5588, "Name": "sd.exe", "Reason": "DKOM"}, {"PID": 6256, "Name": "AdobeARMHelper", "Reason": "DKOM"}, {"PID": 496, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 572, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 840, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 784, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 968, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 1084, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 1092, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 1128, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 8928, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 2252, "Name": "HipMgmt.exe", "Reason": "DKOM"}, {"PID": 2268, "Name": "FireSvc.exe", "Reason": "DKOM"}, {"PID": 2276, "Name": "masvc.exe", "Reason": "DKOM"}, {"PID": 2304, "Name": "macmnsvc.exe", "Reason": "DKOM"}, {"PID": 2312, "Name": "mfemms.exe", "Reason": "DKOM"}, {"PID": 2332, "Name": "VsTskMgr.exe", "Reason": "DKOM"}, {"PID": 2456, "Name": "SecurityHealth", "Reason": "DKOM"}, {"PID": 2508, "Name": "VGAuthService.", "Reason": "DKOM"}, {"PID": 2588, "Name": "ManagementAgen", "Reason": "DKOM"}, {"PID": 2580, "Name": "vmtoolsd.exe", "Reason": "DKOM"}, {"PID": 2736, "Name": "mfeann.exe", "Reason": "DKOM"}, {"PID": 2752, "Name": "conhost.exe", "Reason": "DKOM"}, {"PID": 2788, "Name": "mfevtps.exe", "Reason": "DKOM"}, {"PID": 5692, "Name": "winlogon.exe", "Reason": "DKOM"}, {"PID": 3152, "Name": "WmiPrvSE.exe", "Reason": "DKOM"}, {"PID": 3384, "Name": "mfevtps.exe", "Reason": "DKOM"}, {"PID": 3736, "Name": "macompatsvc.ex", "Reason": "DKOM"}, {"PID": 3828, "Name": "mfemactl.exe", "Reason": "DKOM"}, {"PID": 3940, "Name": "msdtc.exe", "Reason": "DKOM"}, {"PID": 4040, "Name": "mcshield.exe", "Reason": "DKOM"}, {"PID": 3984, "Name": "mfefire.exe", "Reason": "DKOM"}, {"PID": 4028, "Name": "mfehcs.exe", "Reason": "DKOM"}, {"PID": 4048, "Name": "FireTray.exe", "Reason": "DKOM"}, {"PID": 13372, "Name": "dwm.exe", "Reason": "DKOM"}, {"PID": 568, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 9200, "Name": "RdrCEF.exe", "Reason": "DKOM"}, {"PID": 11124, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 9164, "Name": "firefox.exe", "Reason": "DKOM"}, {"PID": 7048, "Name": "dllhost.exe", "Reason": "DKOM"}, {"PID": 10552, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 8468, "Name": "fontdrvhost.ex", "Reason": "DKOM"}, {"PID": 7520, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 3992, "Name": "OUTLOOK.EXE", "Reason": "DKOM"}, {"PID": 10120, "Name": "AdobeARMHelper", "Reason": "DKOM"}, {"PID": 11524, "Name": "ctfmon.exe", "Reason": "DKOM"}, {"PID": 7180, "Name": "conhost.exe", "Reason": "DKOM"}, {"PID": 4, "Name": "System", "Reason": "DKOM"}, {"PID": 1544, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 4540, "Name": "svchost.exe", "Reason": "DKOM"}], "ADD_Spoofed_Decoys": [{"PID": 4, "Name": "System", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1544, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4540, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 9660, "Name": "OfficeClickToR", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1848, "Name": "csrss.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 548, "Name": "csrss.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 384, "Name": "smss.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1684, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 7840, "Name": "dwm.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3916, "Name": "LogonUI.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 5764, "Name": "plasrv.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 9348, "Name": "SearchIndexer.", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 12528, "Name": "subject_srv.ex", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 10184, "Name": "AppVShNotify.e", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 640, "Name": "wininit.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 740, "Name": "services.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 776, "Name": "lsass.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 888, "Name": "fontdrvhost.ex", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 876, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 996, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2008, "Name": "vmacthlp.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2108, "Name": "spoolsv.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1116, "Name": "MemCompression", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1616, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1056, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1072, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2224, "Name": "armsvc.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2232, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 496, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 572, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 840, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 784, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 968, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1084, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1092, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1128, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2252, "Name": "HipMgmt.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2268, "Name": "FireSvc.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2276, "Name": "masvc.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2304, "Name": "macmnsvc.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2312, "Name": "mfemms.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2332, "Name": "VsTskMgr.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2456, "Name": "SecurityHealth", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2508, "Name": "VGAuthService.", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2588, "Name": "ManagementAgen", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2580, "Name": "vmtoolsd.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2736, "Name": "mfeann.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2752, "Name": "conhost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2788, "Name": "mfevtps.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 5692, "Name": "winlogon.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3152, "Name": "WmiPrvSE.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3384, "Name": "mfevtps.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3736, "Name": "macompatsvc.ex", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3828, "Name": "mfemactl.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3940, "Name": "msdtc.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4040, "Name": "mcshield.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3984, "Name": "mfefire.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4028, "Name": "mfehcs.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 568, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 10552, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 8468, "Name": "fontdrvhost.ex", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4, "Name": "System", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1544, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4540, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}], "Zombie_Processes": []}}
+2026-04-18T06:59:12+0000 | INFO | Processing request of type CallToolRequest
+2026-04-18T06:59:12+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/target_alpha.img | PIDs: [12528, 5024, 3068]
+2026-04-18T06:59:17+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [12528, 5024, 3068]
+2026-04-18T06:59:33+0000 | INFO | Processing request of type CallToolRequest
+2026-04-18T06:59:33+0000 | INFO | TOOL_CALL | tool_phase2_deep_userspace | TARGET: /cases/HACKATHON-MEM-001/target_alpha.img
+2026-04-18T06:59:36+0000 | INFO | TOOL_SUCCESS | tool_phase2_deep_userspace | Hidden_Modules: 0 | Malfind_PIDs: 0
+2026-04-18T07:00:27+0000 | INFO | Processing request of type CallToolRequest
+2026-04-18T07:00:27+0000 | INFO | TOOL_CALL | tool_phase3_kernel_abyss | TARGET: /cases/HACKATHON-MEM-001/target_alpha.img
+2026-04-18T07:02:17+0000 | INFO | TOOL_SUCCESS | tool_phase3_kernel_abyss | Hidden_Drivers: 256 | SSDT_Hooks: 1
+2026-04-18T07:04:10+0000 | INFO | Processing request of type CallToolRequest
+2026-04-18T07:04:10+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/target_alpha.img | PIDs: [5588, 12852, 9048]
+2026-04-18T07:04:14+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [5588, 12852, 9048]
+2026-04-18T07:04:53+0000 | INFO | Processing request of type CallToolRequest
+2026-04-18T07:04:53+0000 | INFO | TOOL_CALL | tool_phase4_advanced_evasion | TARGET: /cases/HACKATHON-MEM-001/target_alpha.img
+2026-04-18T07:04:55+0000 | INFO | TOOL_SUCCESS | tool_phase4_advanced_evasion | Suspicious_Threads: 0 | Execution_Artifacts: 0
+2026-04-18T07:06:23+0000 | INFO | Processing request of type CallToolRequest
+2026-04-23T06:22:17+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-23T06:22:17+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-23T06:22:17+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-23T06:22:17+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-23T06:26:54+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-23T06:26:54+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-23T06:26:54+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-23T06:26:54+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-23T06:26:54+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-23T06:26:54+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-23T06:26:54+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-23T06:26:54+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-23T06:29:01+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-23T06:29:11+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-23T06:29:11+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-23T06:29:11+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-23T06:29:11+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-23T06:31:01+0000 | INFO | Processing request of type CallToolRequest
+2026-04-23T06:31:01+0000 | INFO | TOOL_CALL | tool_phase1_surface_triage | TARGET: /cases/HACKATHON-MEM-001/taregt-beta-basedc.img
+2026-04-23T06:33:27+0000 | INFO | TOOL_SUCCESS | tool_phase1_surface_triage | RESULT: {"Summary": {"Total_Visible_Processes": 0, "DKOM_Hidden_Found": 124, "ADD_Spoofs_Found": 85, "Zombie_Connections": 0}, "Anomalies": {"DKOM_Processes": [{"PID": 4, "Name": "System", "Reason": "DKOM"}, {"PID": 4048, "Name": "vmtoolsd.exe", "Reason": "DKOM"}, {"PID": 2344, "Name": "WmiPrvSE.exe", "Reason": "DKOM"}, {"PID": 8384, "Name": "wermgr.exe", "Reason": "DKOM"}, {"PID": 4392, "Name": "mmc.exe", "Reason": "DKOM"}, {"PID": 428, "Name": "csrss.exe", "Reason": "DKOM"}, {"PID": 576, "Name": "winlogon.exe", "Reason": "DKOM"}, {"PID": 4292, "Name": "mmc.exe", "Reason": "DKOM"}, {"PID": 1632, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 340, "Name": "smss.exe", "Reason": "DKOM"}, {"PID": 516, "Name": "csrss.exe", "Reason": "DKOM"}, {"PID": 500, "Name": "smss.exe", "Reason": "DKOM"}, {"PID": 508, "Name": "wininit.exe", "Reason": "DKOM"}, {"PID": 1108, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 856, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 828, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 520, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 312, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 80, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 896, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 836, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 908, "Name": "ManagementAgen", "Reason": "DKOM"}, {"PID": 660, "Name": "lsass.exe", "Reason": "DKOM"}, {"PID": 644, "Name": "services.exe", "Reason": "DKOM"}, {"PID": 2488, "Name": "Microsoft.Acti", "Reason": "DKOM"}, {"PID": 2612, "Name": "VGAuthService.", "Reason": "DKOM"}, {"PID": 2764, "Name": "iashost.exe", "Reason": "DKOM"}, {"PID": 2592, "Name": "MsMpEng.exe", "Reason": "DKOM"}, {"PID": 2584, "Name": "macmnsvc.exe", "Reason": "DKOM"}, {"PID": 2564, "Name": "dns.exe", "Reason": "DKOM"}, {"PID": 2556, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 2680, "Name": "ismserv.exe", "Reason": "DKOM"}, {"PID": 2664, "Name": "dfssvc.exe", "Reason": "DKOM"}, {"PID": 2576, "Name": "dfsrs.exe", "Reason": "DKOM"}, {"PID": 2640, "Name": "vmtoolsd.exe", "Reason": "DKOM"}, {"PID": 1684, "Name": "ApplicationFra", "Reason": "DKOM"}, {"PID": 1956, "Name": "Taskmgr.exe", "Reason": "DKOM"}, {"PID": 2284, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 5612, "Name": "powershell.exe", "Reason": "DKOM"}, {"PID": 4544, "Name": "UpdaterUI.exe", "Reason": "DKOM"}, {"PID": 5084, "Name": "SystemSettings", "Reason": "DKOM"}, {"PID": 4272, "Name": "ServerManager.", "Reason": "DKOM"}, {"PID": 384, "Name": "dwm.exe", "Reason": "DKOM"}, {"PID": 1604, "Name": "userinit.exe", "Reason": "DKOM"}, {"PID": 1244, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 1276, "Name": "vmacthlp.exe", "Reason": "DKOM"}, {"PID": 1580, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 2456, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 2444, "Name": "masvc.exe", "Reason": "DKOM"}, {"PID": 2188, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 2368, "Name": "spoolsv.exe", "Reason": "DKOM"}, {"PID": 3288, "Name": "msdtc.exe", "Reason": "DKOM"}, {"PID": 3088, "Name": "dllhost.exe", "Reason": "DKOM"}, {"PID": 4300, "Name": "explorer.exe", "Reason": "DKOM"}, {"PID": 3152, "Name": "sihost.exe", "Reason": "DKOM"}, {"PID": 716, "Name": "taskhostw.exe", "Reason": "DKOM"}, {"PID": 3488, "Name": "svchost.exe", "Reason": "DKOM"}, {"PID": 3212, "Name": "vds.exe", "Reason": "DKOM"}, {"PID": 3320, "Name": "macompatsvc.ex", "Reason": "DKOM"}, {"PID": 3684, "Name": "NisSrv.exe", "Reason": "DKOM"}, {"PID": 3476, "Name": "mfemactl.exe", "Reason": "DKOM"}, {"PID": 1272, "Name": "regedit.exe", "Reason": "DKOM"}, {"PID": 4152, "Name": "mmc.exe", "Reason": "DKOM"}, {"PID": 7936, "Name": "notepad.exe", "Reason": "DKOM"}, {"PID": 4932, "Name": "RuntimeBroker.", "Reason": "DKOM"}, {"PID": 2232, "Name": "ShellExperienc", "Reason": "DKOM"}, {"PID": 5488, "Name": "conhost.exe", "Reason": "DKOM"}, {"PID": 1152, "Name": "dllhost.exe", "Reason": "DKOM"}, {"PID": 4432, "Name": "rundll32.exe", "Reason": "DKOM"}, {"PID": 3872, "Name": "mctray.exe", "Reason": "DKOM"}, {"PID": 2748, "Name": "conhost.exe", "Reason": "DKOM"}, {"PID": 4508, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 668, "Name": "winlogon.exe", "Reason": "DKOM"}, {"PID": 8520, "Name": "LockAppHost.ex", "Reason": "DKOM"}, {"PID": 692, "Name": "mmc.exe", "Reason": "DKOM"}, {"PID": 9012, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 6664, "Name": "TabTip.exe", "Reason": "DKOM"}, {"PID": 3032, "Name": "conhost.exe", "Reason": "DKOM"}, {"PID": 6628, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 7460, "Name": "SearchUI.exe", "Reason": "DKOM"}, {"PID": 7612, "Name": "tasklist.exe", "Reason": "DKOM"}, {"PID": 8492, "Name": "findstr.exe", "Reason": "DKOM"}, {"PID": 1708, "Name": "rdpclip.exe", "Reason": "DKOM"}, {"PID": 8292, "Name": "smss.exe", "Reason": "DKOM"}, {"PID": 6544, "Name": "LogonUI.exe", "Reason": "DKOM"}, {"PID": 1156, "Name": "conhost.exe", "Reason": "DKOM"}, {"PID": 6648, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 8872, "Name": "WmiPrvSE.exe", "Reason": "DKOM"}, {"PID": 4016, "Name": "conhost.exe", "Reason": "DKOM"}, {"PID": 4588, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 6940, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 6640, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 8248, "Name": "TabTip32.exe", "Reason": "DKOM"}, {"PID": 7928, "Name": "LogonUI.exe", "Reason": "DKOM"}, {"PID": 5036, "Name": "rdpinput.exe", "Reason": "DKOM"}, {"PID": 8872, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 6572, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 7848, "Name": "conhost.exe", "Reason": "DKOM"}, {"PID": 7656, "Name": "csrss.exe", "Reason": "DKOM"}, {"PID": 5332, "Name": "dwm.exe", "Reason": "DKOM"}, {"PID": 6312, "Name": "WmiPrvSE.exe", "Reason": "DKOM"}, {"PID": 5356, "Name": "mmc.exe", "Reason": "DKOM"}, {"PID": 3380, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 8792, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 7732, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 7284, "Name": "tasklist.exe", "Reason": "DKOM"}, {"PID": 5128, "Name": "subject_srv.ex", "Reason": "DKOM"}, {"PID": 6156, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 7260, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 2308, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 4980, "Name": "findstr.exe", "Reason": "DKOM"}, {"PID": 4960, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 3400, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 5728, "Name": "conhost.exe", "Reason": "DKOM"}, {"PID": 8220, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 1036, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 7204, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 4648, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 6604, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 5068, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 5948, "Name": "cmd.exe", "Reason": "DKOM"}, {"PID": 5816, "Name": "WmiPrvSE.exe", "Reason": "DKOM"}, {"PID": 8172, "Name": "WmiPrvSE.exe", "Reason": "DKOM"}, {"PID": 4, "Name": "System", "Reason": "DKOM"}], "ADD_Spoofed_Decoys": [{"PID": 4, "Name": "System", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4048, "Name": "vmtoolsd.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2344, "Name": "WmiPrvSE.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 8384, "Name": "wermgr.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4392, "Name": "mmc.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 428, "Name": "csrss.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 576, "Name": "winlogon.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4292, "Name": "mmc.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1632, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 340, "Name": "smss.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 516, "Name": "csrss.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 508, "Name": "wininit.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1108, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 856, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 828, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 520, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 312, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 80, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 896, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 836, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 908, "Name": "ManagementAgen", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 660, "Name": "lsass.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 644, "Name": "services.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2488, "Name": "Microsoft.Acti", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2612, "Name": "VGAuthService.", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2764, "Name": "iashost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2592, "Name": "MsMpEng.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2584, "Name": "macmnsvc.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2564, "Name": "dns.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2556, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2680, "Name": "ismserv.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2664, "Name": "dfssvc.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2576, "Name": "dfsrs.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2640, "Name": "vmtoolsd.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1684, "Name": "ApplicationFra", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1956, "Name": "Taskmgr.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2284, "Name": "cmd.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 5612, "Name": "powershell.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4544, "Name": "UpdaterUI.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 5084, "Name": "SystemSettings", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4272, "Name": "ServerManager.", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 384, "Name": "dwm.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1244, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1276, "Name": "vmacthlp.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1580, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2456, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2444, "Name": "masvc.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2188, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2368, "Name": "spoolsv.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3288, "Name": "msdtc.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3088, "Name": "dllhost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4300, "Name": "explorer.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3152, "Name": "sihost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 716, "Name": "taskhostw.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3488, "Name": "svchost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3212, "Name": "vds.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3320, "Name": "macompatsvc.ex", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3684, "Name": "NisSrv.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3476, "Name": "mfemactl.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1272, "Name": "regedit.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4152, "Name": "mmc.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 7936, "Name": "notepad.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4932, "Name": "RuntimeBroker.", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2232, "Name": "ShellExperienc", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 5488, "Name": "conhost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1152, "Name": "dllhost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4432, "Name": "rundll32.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3872, "Name": "mctray.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 2748, "Name": "conhost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4508, "Name": "cmd.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 668, "Name": "winlogon.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 8520, "Name": "LockAppHost.ex", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 692, "Name": "mmc.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 6664, "Name": "TabTip.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 3032, "Name": "conhost.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 7460, "Name": "SearchUI.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 1708, "Name": "rdpclip.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 6544, "Name": "LogonUI.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 8248, "Name": "TabTip32.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 5036, "Name": "rdpinput.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 7656, "Name": "csrss.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 5332, "Name": "dwm.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 5356, "Name": "mmc.exe", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 5128, "Name": "subject_srv.ex", "Reason": "ADD Spoofed Decoy (0 Threads)"}, {"PID": 4, "Name": "System", "Reason": "ADD Spoofed Decoy (0 Threads)"}], "Zombie_Processes": []}}
+2026-04-23T06:37:09+0000 | INFO | Processing request of type CallToolRequest
+2026-04-23T06:37:09+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/taregt-beta-basedc.img | PIDs: [5128, 5612, 7936]
+2026-04-23T06:37:13+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [5128, 5612, 7936]
+2026-04-23T06:38:13+0000 | INFO | Processing request of type CallToolRequest
+2026-04-23T06:38:13+0000 | INFO | TOOL_CALL | tool_phase2_deep_userspace | TARGET: /cases/HACKATHON-MEM-001/taregt-beta-basedc.img
+2026-04-23T06:38:15+0000 | INFO | TOOL_SUCCESS | tool_phase2_deep_userspace | Hidden_Modules: 0 | Malfind_PIDs: 0
+2026-04-23T06:38:52+0000 | INFO | Processing request of type CallToolRequest
+2026-04-23T06:38:52+0000 | INFO | TOOL_CALL | tool_phase3_kernel_abyss | TARGET: /cases/HACKATHON-MEM-001/taregt-beta-basedc.img
+2026-04-23T06:43:02+0000 | INFO | TOOL_SUCCESS | tool_phase3_kernel_abyss | Hidden_Drivers: 217 | SSDT_Hooks: 1
+2026-04-23T06:44:38+0000 | INFO | Processing request of type CallToolRequest
+2026-04-23T06:44:38+0000 | INFO | TOOL_CALL | tool_phase4_advanced_evasion | TARGET: /cases/HACKATHON-MEM-001/taregt-beta-basedc.img
+2026-04-23T06:44:40+0000 | INFO | TOOL_SUCCESS | tool_phase4_advanced_evasion | Suspicious_Threads: 0 | Execution_Artifacts: 0
+2026-04-23T06:45:08+0000 | INFO | Processing request of type CallToolRequest
+2026-04-23T06:45:08+0000 | INFO | TOOL_CALL | tool_phase5_substantiation | TARGET: /cases/HACKATHON-MEM-001/taregt-beta-basedc.img | PIDs: [660, 4432]
+2026-04-23T06:45:12+0000 | INFO | TOOL_SUCCESS | tool_phase5_substantiation | Targets Investigated: [660, 4432]
+2026-04-23T06:46:50+0000 | INFO | Processing request of type CallToolRequest
+2026-04-23T07:34:59+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-23T07:34:59+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-23T07:34:59+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-23T07:34:59+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-23T08:59:24+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-23T08:59:24+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-23T08:59:24+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-23T08:59:24+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-23T10:00:25+0000 | INFO | SYSTEM | Valhuntir-Volatility-Engine MCP Server Started.
+2026-04-23T10:00:25+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-23T10:00:25+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-23T10:00:25+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-23T10:27:26+0000 | INFO | TOOL_CALL | tool_write_report | TARGET_FILENAME: Test_Run.md
+2026-04-23T10:27:26+0000 | INFO | TOOL_SUCCESS | tool_write_report | RESULT: Report safely written to /cases/HACKATHON-MEM-001/mcp-volatility-engine/exports/20260423_102726_Test_Run.md
+2026-04-23T10:35:56+0000 | INFO | SYSTEM | Engram-MCP-Engine Server Started.
+2026-04-23T10:35:56+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-23T10:35:56+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-23T10:35:56+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-23T11:12:34+0000 | INFO | SYSTEM | Engram-MCP-Engine Server Started.
+2026-04-23T11:12:34+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-23T11:12:34+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-23T11:12:34+0000 | INFO | Processing request of type ListResourcesRequest
+2026-04-23T11:43:22+0000 | INFO | SYSTEM | Engram-MCP-Engine Server Started.
+2026-04-23T11:43:22+0000 | INFO | Processing request of type ListToolsRequest
+2026-04-23T11:43:22+0000 | INFO | Processing request of type ListPromptsRequest
+2026-04-23T11:43:22+0000 | INFO | Processing request of type ListResourcesRequest
