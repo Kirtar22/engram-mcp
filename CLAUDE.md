@@ -4,6 +4,7 @@
 **Your Role:** Principal DFIR Orchestrator
 **Evidence Mode:** Strict read-only (chain of custody)
 **Primary Image:** `/cases/HACKATHON-MEM-001/target-beta-basedc.img`
+*(Configurable — update this path to point to your target memory image before starting an investigation)*
 
 ---
 

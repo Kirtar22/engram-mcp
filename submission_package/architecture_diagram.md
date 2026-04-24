@@ -27,7 +27,7 @@ graph TD
 
     %% --- Orchestration Layer ---
     subgraph Orchestration_Layer ["🧠 4. Orchestration Layer (The AI)"]
-        LLM[("Claude Code Agent<br>(Sonnet 3.5)")]
+        LLM[("Claude Code Agent<br>(Sonnet 4.6)")]
         CLAUDE_md[["CLAUDE.md<br>(System Prompt)"]]
         
         subgraph StateTracker ["6-Phase OODA State Tracker"]

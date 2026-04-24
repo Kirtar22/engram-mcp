@@ -1,4 +1,6 @@
-# 🧠 Engram MCP: Deterministic AI Orchestration for Memory Forensics
+# Engram MCP: Deterministic AI Orchestration for Memory Forensics
+
+![Engram MCP](submission_package/engram_logo.svg)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -72,7 +74,7 @@ As a result, if a Ring-0 rootkit blinds the extraction tools, the agent dynamica
 ### Deployment Steps
 1. **Clone the Repository**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/engram-mcp.git](https://github.com/YOUR_USERNAME/engram-mcp.git)
+   git clone https://github.com/Kirtar22/engram-mcp.git
    cd engram-mcp
    ```
 
@@ -86,7 +88,7 @@ As a result, if a Ring-0 rootkit blinds the extraction tools, the agent dynamica
 3. **Configure Volatility 3 Path**
    Ensure Volatility 3 is downloaded and its dependencies are installed:
    ```bash
-   git clone [https://github.com/volatilityfoundation/volatility3.git](https://github.com/volatilityfoundation/volatility3.git)
+   git clone https://github.com/volatilityfoundation/volatility3.git
    cd volatility3
    pip install .
    ```
