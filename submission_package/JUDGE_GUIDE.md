@@ -2,7 +2,7 @@
 
 **Submission for:** SANS Find Evil Hackathon (findevil.devpost.com)  
 **Repository:** https://github.com/Kirtar22/engram-mcp  
-**Demo Video:** [VIDEO_URL]  
+**Demo Video:** [\[VIDEO_URL\]](https://youtu.be/mVMCqGKr64g)  
 
 This document maps every required submission artifact to its exact location so judges do not need to search the repository.
 
