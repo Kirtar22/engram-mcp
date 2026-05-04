@@ -1,7 +1,7 @@
 # Execution Trace — target-beta-basedc.img
 **Date:** 2026-04-23 (UTC)
 **Analyst:** Principal DFIR Orchestrator (Claude Code — claude-sonnet-4-6)
-**Evidence:** `/cases/HACKATHON-MEM-001/taregt-beta-basedc.img`
+**Evidence:** `/cases/HACKATHON-MEM-001/target-beta-basedc.img`
 **MCP Engine:** ValhuntirEngine (engram MCP tools)
 
 ---
@@ -21,7 +21,7 @@ All 6 MCP tools loaded via ToolSearch:
 ## PHASE 1: Surface Triage
 
 **Tool:** `tool_phase1_surface_triage`
-**Image:** `/cases/HACKATHON-MEM-001/taregt-beta-basedc.img`
+**Image:** `/cases/HACKATHON-MEM-001/target-beta-basedc.img`
 
 ### Raw Tool Output
 
@@ -382,7 +382,7 @@ All 6 MCP tools loaded via ToolSearch:
 | Signal | Finding | Severity |
 |--------|---------|----------|
 | Total_Visible_Processes: 0 | ALL processes DKOM-hidden from active list — complete _EPROCESS list wipeout. Ring 0 rootkit behavior. | CRITICAL |
-| subject_srv.exe PID 5128, PPID 644 | Known campaign backdoor binary. Child of services.exe — persistent service. | CRITICAL |
+| subject_srv.exe PID 5128, PPID 644 | Known campaign backdoor binary.Child of services.exe — persistent service. | CRITICAL |
 | powershell.exe PID 5612, PPID 4932 (RuntimeBroker.exe) | Anomalous parent-child. RuntimeBroker has no business spawning PowerShell. | HIGH |
 | notepad.exe PID 7936, PPID 5612 | notepad.exe child of powershell.exe — classic hollow process host. | HIGH |
 | 20+ cmd.exe instances | ManagementAgen.exe (908) → cmd.exe tree. Automated C2 execution pattern. | HIGH |
@@ -543,4 +543,4 @@ UNLINKED — found only in physical modscan, absent from PsLoadedModuleList
 
 ## Final Report Location
 
-`/cases/HACKATHON-MEM-001/mcp-volatility-engine/exports/20260423_064650_Incident_Report_taregt-beta-basedc.md`
+`/cases/HACKATHON-MEM-001/mcp-volatility-engine/exports/20260423_064650_Incident_Report_target-beta-basedc.md`
