@@ -3,8 +3,11 @@
 ![Engram MCP](submission_package/engram_logo.svg)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Demo Video](https://img.shields.io/badge/Demo-YouTube-red.svg)](https://youtu.be/mVMCqGKr64g)
 
 **A Model Context Protocol (MCP) Approach to Autonomous Digital Forensics and Incident Response (DFIR)**
+
+**[Demo Video: Engram MCP — Autonomous AI Memory Forensics (Ring 0 Rootkit Detection)](https://youtu.be/mVMCqGKr64g)**
 
 ## 1. Problem Statement & Baseline Empirical Observations
 The integration of Large Language Models (LLMs) into autonomous DFIR workflows has historically relied on piping agent outputs directly into interactive Unix/Linux bash shells (e.g., SANS SIFT). To establish a baseline, we subjected an unconstrained LLM agent to a standard memory forensics CTF (MemLabs Lab 5: "Black Tuesday") via raw terminal I/O. 
