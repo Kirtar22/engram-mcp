@@ -121,12 +121,19 @@ The agent will execute the 6 phases autonomously and save a markdown Incident Re
 ---
 
 ## 7. Hackathon Artifacts Reference
-Judges can find the required SANS hackathon documentation in the `submission_package/` directory:
-* `PROJECT_DESCRIPTION.md`: In-depth empirical research and architectural methodology.
-* `ACCURACY_REPORT.md`: Honest self-assessment detailing false positives, tool limitations, and successful self-corrections.
-* `DATASET_DOCUMENTATION.md`: Overview of the memory profiles tested (WinXP, Win7, Win10).
-* `Architecture_Diagram.png`: Visual layout of the decoupled MCP architecture.
-* `conversation_logs/`: Raw execution traces demonstrating the agent's autonomous reasoning.
+Judges can find the required SANS hackathon documentation in the `submission_package/` directory.
+
+**Start here:** [`JUDGE_GUIDE.md`](submission_package/JUDGE_GUIDE.md) — maps every required artifact to its exact location with direct links.
+
+| Artifact | Path |
+|---|---|
+| Project Description | [`submission_package/project_description.md`](submission_package/project_description.md) |
+| Architecture Diagram | [`submission_package/Architecture_Diagram.png`](submission_package/Architecture_Diagram.png) |
+| Baseline Assessment (pre-Engram) | [`submission_package/baseline_assessment.md`](submission_package/baseline_assessment.md) |
+| Evidence Dataset Documentation | [`submission_package/dataset/evidence_dataset_documentation.md`](submission_package/dataset/evidence_dataset_documentation.md) |
+| Accuracy Reports (per target) | [`submission_package/accuracy_reports/`](submission_package/accuracy_reports/) |
+| Agent Execution Logs | [`submission_package/conversation_logs/`](submission_package/conversation_logs/) |
+| Final Incident Reports | [`submission_package/memory_analysis_reports/`](submission_package/memory_analysis_reports/) |
 
 ---
 

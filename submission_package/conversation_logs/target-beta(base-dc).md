@@ -1,4 +1,4 @@
-# Execution Trace — taregt-beta-basedc.img
+# Execution Trace — target-beta-basedc.img
 **Date:** 2026-04-23 (UTC)
 **Analyst:** Principal DFIR Orchestrator (Claude Code — claude-sonnet-4-6)
 **Evidence:** `/cases/HACKATHON-MEM-001/taregt-beta-basedc.img`
