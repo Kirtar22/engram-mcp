@@ -71,10 +71,11 @@ As a result, if a Ring-0 rootkit blinds the extraction tools, the agent dynamica
 ### Prerequisites
 * Python 3.10+
 * `git`
-* [Volatility 3 Framework](https://github.com/volatilityfoundation/volatility3) (with Windows symbol tables downloaded)
+* [Volatility 3 Framework](https://github.com/volatilityfoundation/volatility3) (installed separately — see Step 3)
 * An MCP-compatible AI client (e.g., [Claude Code](https://github.com/anthropics/claude-code))
 
 ### Deployment Steps
+
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/Kirtar22/engram-mcp.git
@@ -83,43 +84,55 @@ As a result, if a Ring-0 rootkit blinds the extraction tools, the agent dynamica
 
 2. **Set Up the Virtual Environment**
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python3 -m venv venv
+   source venv/bin/activate
    pip install -r requirements.txt
    ```
 
-3. **Configure Volatility 3 Path**
-   Ensure Volatility 3 is downloaded and its dependencies are installed:
+3. **Install Volatility 3**
+   Volatility 3 must be installed separately alongside the virtual environment:
    ```bash
    git clone https://github.com/volatilityfoundation/volatility3.git
    cd volatility3
    pip install .
+   cd ..
    ```
-   The Engram MCP server dynamically looks for Volatility. You must set the VOLATILITY_PATH environment variable before starting Claude Code:
 
+4. **Set the VOLATILITY_PATH Environment Variable**
+   The Engram MCP server locates Volatility via this environment variable. Set it to the absolute path of `vol.py` inside your cloned Volatility 3 directory. Add it to `~/.bashrc` so it persists across sessions:
    ```bash
-   export VOLATILITY_PATH=/path/to/your/volatility3/vol.py
+   export VOLATILITY_PATH=/absolute/path/to/volatility3/vol.py
+   echo 'export VOLATILITY_PATH=/absolute/path/to/volatility3/vol.py' >> ~/.bashrc
    ```
-4. **Register the MCP Server**
-   Link the Python server to your AI orchestrator:
+   If `VOLATILITY_PATH` is not set, the server will attempt to fall back to `vol.py` on your system PATH.
+
+5. **Configure Your Target Evidence File**
+   Place your memory image anywhere on disk and note its absolute path. Open `CLAUDE.md` in the repo root and update line 6 to match:
+   ```
+   **Primary Image:** `/absolute/path/to/your/image.img`
+   ```
+   This is the path the agent will use when it begins the investigation. It must be updated before launching Claude Code.
+
+6. **Register the MCP Server**
+   Use the absolute path to `mcp_server.py` to ensure Claude Code can find it regardless of working directory:
    ```bash
-   claude mcp add engram python mcp_server.py
+   claude mcp add engram python /absolute/path/to/engram-mcp/mcp_server.py
    ```
 
 ---
 
 ## 6. Usage: Running an Investigation
 
-1. Place your target memory dump in the `/cases/` directory.
-2. Launch your agent from the terminal:
+1. Ensure `VOLATILITY_PATH` is exported in your current shell session and `CLAUDE.md` has been updated with your target image path (see Steps 4 and 5 above).
+2. Launch Claude Code from the engram-mcp directory:
    ```bash
    claude
    ```
 3. Issue the master prompt:
    ```text
-   Investigate the <filename>.img dump based on your CLAUDE.md instructions. Do not pause to ask for my permission between phases; execute the entire OODA loop autonomously. Follow your state-tracking checklist.
+   Investigate the image in your CLAUDE.md instructions. Do not pause to ask for my permission between phases; execute the entire OODA loop autonomously. Follow your state-tracking checklist.
    ```
-The agent will execute the 6 phases autonomously and save a markdown Incident Report to the disk.
+The agent will execute the 6 phases autonomously and save a timestamped Markdown Incident Report to the `exports/` directory inside the repo.
 
 ---
 
