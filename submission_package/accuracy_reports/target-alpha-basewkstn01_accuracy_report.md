@@ -1,3 +1,5 @@
+> **Evidence Integrity:** See [evidence_integrity.md](evidence_integrity.md) for the architectural approach to read-only chain of custody across all investigations.
+
 # Engram Engine: Accuracy & Self-Assessment Report
 **Target:** `target_alpha.img` (Windows 10/11 x64 — VMware Workstation, base-wkstn-01)
 **MCP Engine:** Engram (`mcp__engram__tool_phase1_surface_triage` through `tool_write_report`)

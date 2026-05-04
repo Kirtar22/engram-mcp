@@ -1,3 +1,5 @@
+> **Evidence Integrity:** See [evidence_integrity.md](evidence_integrity.md) for the architectural approach to read-only chain of custody across all investigations.
+
 # Engram Engine: Accuracy & Self-Assessment Report
 **Target:** `unknown_dmp.raw` (Windows XP SP3 — VirtualBox Guest, CyberDefenders challenge — BlackEnergy)
 **MCP Engine:** Engram (`mcp__engram__tool_phase1_surface_triage` through `tool_write_report`)
