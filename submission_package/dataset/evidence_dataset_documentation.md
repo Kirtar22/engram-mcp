@@ -48,6 +48,7 @@ The Engram agent was tested against three real-world memory images sourced from 
 |-------|-------|
 | **File** | `target_alpha.img` |
 | **Source** | SANS Slingshot Reference Lab 2018 — `base-wkstn-01-memory` |
+| **URL** | https://sansorg.egnyte.com/fl/HhH7crTYT4JK#folder-link/HACKATHON-2026/Compromised%20APT%20Attack%20Scenarios/SRL-2018-Compromised%20Enterprise%20Network/SRL-2018?p=ebd34b81-dcdd-4086-8147-140079d93db9 |
 | **OS / Platform** | Windows 10/11 x64, VMware guest |
 | **Environment** | Enterprise workstation; McAfee/Trellix AV installed |
 | **Ground Truth** | Red Team exercise image — advanced persistent threat simulation |
@@ -76,6 +77,7 @@ The Engram agent was tested against three real-world memory images sourced from 
 |-------|-------|
 | **File** | `target-beta-basedc.img` |
 | **Source** | SANS Slingshot Reference Lab 2018 — `base-dc-memory` |
+| **URL** | https://sansorg.egnyte.com/fl/HhH7crTYT4JK#folder-link/HACKATHON-2026/Compromised%20APT%20Attack%20Scenarios/SRL-2018-Compromised%20Enterprise%20Network/SRL-2018?p=75d28978-a43f-4eff-abd9-a9ff4c98f45b |
 | **OS / Platform** | Windows Server x64, VMware guest |
 | **Environment** | Active Directory Domain Controller; Windows Defender AV installed |
 | **Ground Truth** | Red Team exercise image — advanced persistent threat simulation |

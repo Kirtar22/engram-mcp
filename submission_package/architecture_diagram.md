@@ -2,6 +2,8 @@
 
 This diagram visualizes the deterministic data pipeline of Engram MCP. It illustrates how the architecture decouples the LLM Orchestrator from raw tool execution, enforcing the 5-Phase OODA Loop methodology via Model Context Protocol (MCP) JSON telemetry.
 
+**Architectural Pattern:** Custom MCP Server — as defined by the Find Evil! hackathon classification framework. A purpose-built Python FastMCP server sits between the LLM and Volatility 3, exposing six deterministic typed tool endpoints. The LLM never constructs or executes raw Volatility commands; all forensic work flows exclusively through the MCP API contract.
+
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#003366', 'edgeLabelBackground':'#ffffff', 'tertiaryColor': '#fff'}}}%%
 graph TD
@@ -84,3 +86,29 @@ graph TD
     class OODA1,OODA2,OODA3,OODA4,OODA5,OODA6 orchestrator;
     class Report,Logs output;
 ```
+
+---
+
+## Trust Boundaries
+
+| Boundary | Location | Enforcement Type | Mechanism |
+|---|---|---|---|
+| **Evidence → Forensic Engine** | Memory dump → Volatility 3 | Architectural | Volatility 3 maps memory read-only; no write-back to source file |
+| **Forensic Engine → MCP Server** | Volatility 3 → FastMCP | Architectural | Python `subprocess` with read-only flags; stdout captured, no stdin injection possible |
+| **MCP Server → LLM** | FastMCP → Claude Agent | Architectural | LLM receives structured JSON only; cannot invoke arbitrary OS commands through the MCP interface |
+| **LLM → Filesystem** | Claude Agent → `exports/` | Architectural | The only write-capable MCP tool (`tool_write_report`) is hard-coded to `exports/`; evidence file paths are never accepted as write targets by any tool |
+
+---
+
+## Guardrail Classification
+
+| Guardrail | Type | Enforcement Location |
+|---|---|---|
+| No write-path MCP tools | **Architectural** | FastMCP server API design — evidence path not accepted by any tool |
+| Subprocess read-only flags | **Architectural** | Python `subprocess` invocation in each phase tool |
+| Empty array → UNVERIFIED injection | **Architectural** | FastMCP Python layer — deterministic string injection before LLM receives output |
+| `NO RAW BASH` instruction | **Prompt-based** | CLAUDE.md system prompt |
+| 6-Phase OODA State Tracker | **Prompt-based** | CLAUDE.md system prompt |
+| Anti-Hallucination / Red Team Protocol | **Prompt-based** | CLAUDE.md system prompt |
+
+Architectural guardrails hold regardless of model behavior. Prompt-based guardrails enforce sequencing and reasoning discipline — the architectural layer is the backstop if the prompt is bypassed.
