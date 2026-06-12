@@ -2,7 +2,7 @@
 
 **Submission for:** SANS Find Evil Hackathon (findevil.devpost.com)  
 **Repository:** https://github.com/Kirtar22/engram-mcp  
-**Demo Video:** [\[VIDEO_URL\]](https://youtu.be/mVMCqGKr64g)  
+**Demo Video:** [Demo Video — YouTube](https://youtu.be/mVMCqGKr64g)  
 
 This document maps every required submission artifact to its exact location so judges do not need to search the repository.
 
@@ -15,7 +15,7 @@ This document maps every required submission artifact to its exact location so j
 | Source Code | [mcp_server.py](https://github.com/Kirtar22/engram-mcp/blob/main/mcp_server.py) · [tools/](https://github.com/Kirtar22/engram-mcp/tree/main/tools) |
 | Agent System Prompt (Guardrails) | [CLAUDE.md](https://github.com/Kirtar22/engram-mcp/blob/main/CLAUDE.md) |
 | Setup Instructions | [README.md](https://github.com/Kirtar22/engram-mcp/blob/main/README.md) |
-| Architecture Diagram | [Architecture_Diagram.png](https://github.com/Kirtar22/engram-mcp/blob/main/submission_package/Architecture_Diagram.png) |
+| Architecture Diagram | [Architecture_Diagram.png](https://github.com/Kirtar22/engram-mcp/blob/main/submission_package/Architecture_Diagram.png) · [architecture_diagram.md](https://github.com/Kirtar22/engram-mcp/blob/main/submission_package/architecture_diagram.md) (includes Trust Boundaries + Guardrail Classification) |
 | Project Description | [project_description.md](https://github.com/Kirtar22/engram-mcp/blob/main/submission_package/project_description.md) |
 | Evidence Dataset Documentation | [evidence_dataset_documentation.md](https://github.com/Kirtar22/engram-mcp/blob/main/submission_package/dataset/evidence_dataset_documentation.md) |
 | Baseline Assessment (pre-Engram) | [baseline_assessment.md](https://github.com/Kirtar22/engram-mcp/blob/main/submission_package/baseline_assessment.md) |
@@ -25,7 +25,7 @@ This document maps every required submission artifact to its exact location so j
 
 ## Accuracy Reports (per target)
 
-Three targets were investigated. Each has an independent accuracy report with honest self-assessment of false positives, missed artifacts, and hallucinated claims.
+Three targets were investigated. Each has an independent accuracy report with honest self-assessment of false positives, missed artifacts, and hallucinated claims. Evidence integrity (how the architecture prevents data modification) is documented in [evidence_integrity.md](https://github.com/Kirtar22/engram-mcp/blob/main/submission_package/accuracy_reports/evidence_integrity.md).
 
 | Target | Profile | Accuracy Report |
 |---|---|---|
@@ -38,6 +38,10 @@ Three targets were investigated. Each has an independent accuracy report with ho
 ## Agent Execution Logs (full conversation traces)
 
 Structured logs showing complete agent communication and tool execution with timestamps and token usage. Every finding in the incident reports is traceable to a specific tool call in these logs.
+
+**Machine logs (timestamped tool calls):** [execution_trace.log](https://github.com/Kirtar22/engram-mcp/blob/main/submission_package/execution_logs/execution_trace.log) · [token_usage_methodology.md](https://github.com/Kirtar22/engram-mcp/blob/main/submission_package/execution_logs/token_usage_methodology.md) · [dev_notes.md](https://github.com/Kirtar22/engram-mcp/blob/main/submission_package/execution_logs/dev_notes.md)
+
+**Agent reasoning traces (per target):**
 
 | Target | Execution Log |
 |---|---|
